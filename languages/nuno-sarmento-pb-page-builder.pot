@@ -1,0 +1,36 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder\n"
+"POT-Creation-Date: 2017-01-20 20:22+0000\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/
+msgid ""
+msgstr ""
+
+#: ../includes/
+msgid ""
+msgstr ""
+
+#: ../includes/
+msgid ""
+msgstr ""
+
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""

@@ -1,0 +1,46 @@
+.conten-ns-atp{
+
+	.main-ns-atp {
+    max-width: 965px;
+    margin: 0 auto;
+
+		.page__column-ns-atp {
+      position: relative;
+      float: left;
+      width: 100%;
+      min-height: 1px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding: 0 20px;
+			margin-top: 50px;
+		}
+	}
+	.article-permalink-ns-atp {
+		border-top: 1px solid #eee;
+		&:focus,
+		&:hover {
+			.read-more {
+				margin-left: 8px;
+			}
+		}
+		&:first-child, &:nth-child(2) {
+			border-top: 0;
+		}
+		&:nth-child(odd) {
+			article {
+				margin: 0 0 auto;
+			}
+		}
+		&:nth-child(even) {
+			article {
+				margin: 0 0 0 auto;
+			}
+		}
+		&:first-child, &:nth-child(2) {
+			article {
+				padding-top: 15px;
+			}
+		}
+	}
+
+}

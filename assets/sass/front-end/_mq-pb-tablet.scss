@@ -1,0 +1,22 @@
+.conten-ns-atp {
+
+	.main-ns-atp {
+		.page__column-ns-atp {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+		}
+	}
+	.article-permalink-ns-atp {
+		width: 50%;
+		height: 100%;
+		&:nth-child(odd) {
+			border-right: 1px solid #eee;
+		}
+	}
+	article.article-permalink-ns-atp {
+		padding: 15px 30px 80px;
+	}
+}

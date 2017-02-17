@@ -1,0 +1,27 @@
+$phablet : 480px;
+$tablet : 768px;
+$desktop : 992px;
+
+// Mobile
+@import "front-end/mq-pb-mobile";
+
+// Phablet
+@media (min-width: $phablet) {
+    @import "front-end/mq-pb-phablet";
+}
+
+// Tablet
+@media (min-width: $tablet) {
+    @import "front-end/mq-pb-tablet";
+}
+
+// Desktop
+@media (min-width: $desktop) {
+    @import "front-end/mq-pb-desktop";
+}
+
+// Print
+
+@media print {
+    @import "print";
+}
