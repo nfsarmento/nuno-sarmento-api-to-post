@@ -78,25 +78,24 @@ if ( ! @include( 'nuno-sarmento-api-to-post-functions.php' ) ) {
 	require_once( NUNO_SARMENTO_API_TO_POST_BASE_PATH . 'includes/nuno-sarmento-api-to-post-functions.php' );
 }
 
-
 /* ------------------------------------------
 // TinyMce Button for shortcode -------------
 --------------------------------------------- */
 
 add_action( 'admin_init', 'nsatp_tinymce_button' );
 function nsatp_tinymce_button() {
-     if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
-          add_filter( 'mce_buttons', 'nsatp_register_tinymce_button' );
-          add_filter( 'mce_external_plugins', 'nsatp_add_tinymce_button' );
-     }
+   if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
+        add_filter( 'mce_buttons', 'nsatp_register_tinymce_button' );
+        add_filter( 'mce_external_plugins', 'nsatp_add_tinymce_button' );
+   }
 }
 
 function nsatp_register_tinymce_button( $buttons ) {
-     array_push( $buttons, "nsatp_button_eek" );
-     return $buttons;
+   array_push( $buttons, "nsatp_button_eek" );
+   return $buttons;
 }
 
 function nsatp_add_tinymce_button( $plugin_array ) {
-	   $plugin_array['nsatp_button_script'] = plugin_dir_url( __FILE__ ) . 'assets/js/ns-apitopost-tinybt.js';
-     return $plugin_array;
+   $plugin_array['nsatp_button_script'] = plugin_dir_url( __FILE__ ) . 'assets/js/ns-apitopost-tinybt.js';
+   return $plugin_array;
 }
