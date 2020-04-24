@@ -1,11 +1,11 @@
-# Nuno Sarmento API To Post WordPress Plugin
+# API To Post WordPress Plugin
 
-Simple WP API to Posts - Nuno Sarmento API To Post is the simplest way to get WordPress Posts from a remote WordPress website. The plugin fetches posts from a remote website using WP API and display them in very slick and gorgeous two grid layout.
+Simple WP API to Posts - API To Post is the simplest way to get WordPress Posts from a remote WordPress website. The plugin fetches posts from a remote website using WP API and display them in very slick and gorgeous two grid layout.
 
 
 **Description**
 
-Nuno Sarmento API To Post is the simplest way to get WordPress Posts from a remote WordPress website. The plugin fetches posts from a remote website using WP API and display them in very slick and gorgeous two grid layout.
+API To Post is the simplest way to get WordPress Posts from a remote WordPress website. The plugin fetches posts from a remote website using WP API and display them in very slick and gorgeous two grid layout.
 
 Add your API URL on NS API To Post admin page ( example http://example:example@example.com/wp-json/wp/v2/posts/?_embed ) please don't forget to add ?_embed on your url.
 
