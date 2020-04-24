@@ -3,8 +3,8 @@ Contributors: nunosarmento
 Donate link: https://www.nuno-sarmento.com
 Tags: api, page, post, builder, visual, shortcode, content, css, responsive, admin
 Requires at least: 3.0.1
-Tested up to: 4.7.2
-Stable tag: 1.0.0
+Tested up to: 5.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,5 +52,15 @@ https://twitter.com/Nuno_M_Sarmento.
 
 == Changelog ==
 
-= 1.0.0 =
+1.0.0 - Name standards.
+
+1.0.1 - Tidy plugins included file.
+
+
+== Upgrade Notice ==
+
+= 1.0.0  =
 Name standards.
+
+= 1.0.1  =
+Tidy author plugins included file.

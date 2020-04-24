@@ -9,7 +9,6 @@ class Nuno_Sarmento_ATP_OptionsPage {
 		public function __construct() {
       add_action( 'admin_menu', array( $this, 'add_plugin_page' ) );
       add_action( 'admin_init', array( $this, 'ns_atp_options_init' ) );
-			add_action('admin_footer_text',array($this,	'admin_footer'));
     }
 
     public function add_plugin_page(){
@@ -226,49 +225,6 @@ class Nuno_Sarmento_ATP_OptionsPage {
 
 								 <div class="plugin-card-top">
 
-										 <a href="https://en-gb.wordpress.org/plugins/nuno-sarmento-social-icons/" class="plugin-icon" target="_blank">
-											 <style type="text/css">#plugin-icon-nuno-sarmento-social-icons { width:128px; height:128px; background-image: url(//ps.w.org/nuno-sarmento-social-icons/assets/icon-128x128.png?rev=1588574); background-size:128px 128px; }@media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #plugin-icon-nuno-sarmento-social-icons { background-image: url(//ps.w.org/nuno-sarmento-social-icons/assets/icon-256x256.png?rev=1588574); } }</style>
-											 <div class="plugin-icon" id="plugin-icon-nuno-sarmento-social-icons" style="float:left; margin: 3px 6px 6px 0px;"></div>
-										 </a>
-
-										 <div class="name column-name" style="float: right;">
-										 		<h4><a href="https://en-gb.wordpress.org/plugins/nuno-sarmento-social-icons/" target="_blank">Nuno Sarmento Social Icons</a></h4>
-									 	 </div>
-
-								</div>
-
-								<div class="plugin-card-bottom">
-									<p class="authors"><cite>By: <a href="//profiles.wordpress.org/nunosarmento/" target="_blank">Nuno Morais Sarmento</a>.</cite></p>
-								</div>
-
-							</div>
-
-							<div class="plugin-card">
-
-								 <div class="plugin-card-top">
-
-									 <a href="https://en-gb.wordpress.org/plugins/nuno-sarmento-page-builder/" class="plugin-icon" target="_blank">
-									 	  <style type="text/css">#plugin-icon-nuno-sarmento-page-builder { width:128px; height:128px; background-image: url(//ps.w.org/nuno-sarmento-page-builder/assets/icon-128x128.png?rev=1588552); background-size:128px 128px; }@media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #plugin-icon-nuno-sarmento-page-builder { background-image: url(//ps.w.org/nuno-sarmento-page-builder/assets/icon-256x256.png?rev=1588552); } }</style>
-									 	  <div class="plugin-icon" id="plugin-icon-nuno-sarmento-page-builder" style="float:left; margin: 3px 6px 6px 0px;"></div>
-								 	 </a>
-
-									 <div class="name column-name" style="float: right;">
-									 <h4><a href="https://en-gb.wordpress.org/plugins/nuno-sarmento-page-builder/" target="_blank">Nuno Sarmento Page Builder</a></h4>
-
-								 </div>
-
-								</div>
-
-								<div class="plugin-card-bottom">
-									<p class="authors"><cite>By: <a href="//profiles.wordpress.org/nunosarmento/" target="_blank">Nuno Morais Sarmento</a>.</cite></p>
-								</div>
-
-							</div>
-
-							<div class="plugin-card">
-
-								 <div class="plugin-card-top">
-
 										 <a href="https://en-gb.wordpress.org/plugins/nuno-sarmento-popup/" class="plugin-icon" target="_blank">
 											 <style type="text/css">#plugin-icon-nuno-sarmento-popup { width:128px; height:128px; background-image: url(//ps.w.org/nuno-sarmento-popup/assets/icon-128x128.png?rev=1593940); background-size:128px 128px; }@media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #plugin-icon-nuno-sarmento-popup { background-image: url(//ps.w.org/nuno-sarmento-popup/assets/icon-256x256.png?rev=1593940); } }</style>
 											 <div class="plugin-icon" id="plugin-icon-nuno-sarmento-popup" style="float:left; margin: 3px 6px 6px 0px;"></div>
@@ -307,6 +263,28 @@ class Nuno_Sarmento_ATP_OptionsPage {
 							</div>
 
 						 </div>
+
+						 <div class="plugin-card">
+
+						 	 <div class="plugin-card-top">
+
+						 		 <a href="https://wordpress.org/plugins/change-wp-admin-login/" class="plugin-icon">
+									 <style type="text/css">#plugin-icon-change-wp-admin-login { width:128px; height:128px; background-image: url(//ps.w.org/change-wp-admin-login/assets/icon-256x256.png?rev=2040699); background-size:128px 128px; }@media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #plugin-icon-nuno-sarmento-api-to-post { background-image: url(//ps.w.org/change-wp-admin-login/assets/icon-256x256.png?rev=2040699); } }</style>
+									 <div class="plugin-icon" id="plugin-icon-change-wp-admin-login" style="float:left; margin: 3px 6px 6px 0px;"></div>
+							 	 </a>
+
+						 		 <div class="name column-name">
+						 			 <h4><a href="https://wordpress.org/plugins/change-wp-admin-login/">Change wp-admin login</a></h4>
+						 		 </div>
+
+						 	</div>
+
+							<div class="plugin-card-bottom">
+								<p class="authors"><cite>By: <a href="//profiles.wordpress.org/nunosarmento/" target="_blank">Nuno Morais Sarmento</a>.</cite></p>
+							</div>
+
+						 </div>
+
 
 					</div>
 

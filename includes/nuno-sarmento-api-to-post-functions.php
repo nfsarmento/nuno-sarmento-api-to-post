@@ -29,17 +29,19 @@ function nuno_sarmento_api_to_post_shortcode() {
 	<div class="main-ns-atp">
 
 		<?php
+
 			$nuno_sarmento_api_to_post_options = get_option( 'ns_atp_general' ); // Array of All Options
 			$nuno_sarmento_api_to_post_url_0 = $nuno_sarmento_api_to_post_options['ns_atp_url']; // Nuno Sarmento API To Post URL
       $base_url = $nuno_sarmento_api_to_post_url_0;
 
       if ( '' == @file_get_contents($base_url) )
       {
-       echo "<script>alert('API URL not setup on your plugin admin area, please go to NS API To Post admin panel and verify your URL');</script>";
-       echo 'API URL not setup on your plugin admin area, please go to NS API To Post admin panel and verify your URL';
-       return;
+         echo "<script>alert('API URL not setup on your plugin admin area, please go to NS API To Post admin panel and verify your URL');</script>";
+         echo 'API URL not setup on your plugin admin area, please go to NS API To Post admin panel and verify your URL';
+         return;
 
       }else{
+
         $base_url = $nuno_sarmento_api_to_post_url_0;
         $response = file_get_contents($base_url);
         $result = json_decode($response,true);
